@@ -3,8 +3,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Get select element
     var columnSelector = document.getElementById('columnSelector');
-
-    // Add event listener for changes select element
+     // Add event listener for changes select element
     columnSelector.addEventListener('change', function () {
         // Get the selected option value 
         var selectedColumn = columnSelector.value;
