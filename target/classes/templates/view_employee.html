@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Employee Details</title>
+    <!-- Include any necessary stylesheets or scripts here -->
+</head>
+<body>
+
+<div class="container my-2">
+    <h1>Employee Details</h1>
+
+    <div class="my-3">
+        <!-- Display detailed information about the employee -->
+        <p th:text="'Employee ID: ' + ${employee.id}"></p>
+        <p th:text="'First Name: ' + ${employee.firstName}"></p>
+        <p th:text="'Last Name: ' + ${employee.lastName}"></p>
+        <p th:text="'Email: ' + ${employee.email}"></p>
+
+       
+    </div>
+
+   
+
+</div>
+
+</body>
+</html>
