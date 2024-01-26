@@ -11,4 +11,3 @@ import net.javaguides.springboot.model.Employee;
 public interface EmployeeRepository extends JpaRepository<Employee, Long>{
 	List<Employee> findByFirstNameContainingOrLastNameContainingOrEmailContaining(String firstName, String lastName, String email);
 }
-  
