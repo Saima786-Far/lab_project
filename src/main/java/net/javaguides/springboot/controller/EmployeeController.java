@@ -83,7 +83,7 @@ public class EmployeeController {
 		model.addAttribute("listEmployees", listEmployees);
 		return "index";
 	}
-	
+
 	@GetMapping("/search")
 	public String searchEmployees(@RequestParam("keyword") String keyword, Model model) {
 	    List<Employee> searchResults = employeeService.searchEmployees(keyword);
