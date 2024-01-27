@@ -34,6 +34,16 @@ This is a simple Spring Boot CRUD (Create, Read, Update, Delete) application usi
 1. Access the home page: [http://localhost:8080/](http://localhost:8080/)
 2. Navigate to the search page to perform CRUD operations.
 
+### How it works
+
+When we open the application using localhost at default port, the interface/landing page of the application would look like this
+- Point 1: Create/add new employee in the database
+- Point 2: Update details for any exisitng user/employee
+- Point 3: Delete any user/employee
+- Point 4: View details for any employee
+- Point 5: Filter details of employee based on table columns
+- Point 6: Search any employee from the database
+
 ## Features
 
 - **Home Page**: Landing page with navigation functions.
