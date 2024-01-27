@@ -36,7 +36,10 @@ This is a simple Spring Boot CRUD (Create, Read, Update, Delete) application usi
 
 ### How it works
 
-When we open the application using localhost at default port, the interface/landing page of the application would look like this
+When we open the application using localhost at default port, the interface/landing page of the application would look like below
+
+![Project Dashboard](https://github.com/Saima786-Far/lab_project/assets/84591699/c918b166-cfa3-465d-b6cf-fc74e33c521e)
+
 - Point 1: Create/add new employee in the database
 - Point 2: Update details for any exisitng user/employee
 - Point 3: Delete any user/employee
